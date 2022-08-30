@@ -1,0 +1,595 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.backgroundimg{
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    height: 50px;
+    width: 100px;
+}
+.imglogo{
+    width: 65px;
+    height: 65px;
+    transition: all 1s ease;
+}
+.imglogo:hover{
+    transition: all 1s ease;
+    transform: scale(1.15);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 30%;
+    width: 500px;
+    height: 90px;
+    background-color: black;
+    padding: 10px 10px 15px 0px;
+    margin-top: 10px;
+}
+header:hover{
+    transform: scale(1.10);
+    transition: all 0.8s ease;
+}
+.titulo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aqua;
+    font-style: oblique;
+    font-size: 250%;
+    font-weight: bold;
+}
+.subtitulo{
+    position: relative;
+    left: 40%;
+    background-color: black;
+    width: 250px;
+    text-align: center;
+    font-style: italic;
+    color: red;
+}
+.canchasimg{
+    display: flex;
+    position: relative;
+    left: 19%;
+    width: 800px;
+    height: 200px;
+    margin: 40px 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 120px 20px 300px 20px;
+    text-align: center;
+}
+nav a{
+    color: darkblue;
+}
+nav .tablanav{
+    border: 2px;
+    color: black;
+}
+nav .turnosnav{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkblue;
+    font-size: 90%;
+    text-align: left;
+    font-weight: bold;
+    transition: all 0.8s ease;
+}
+.turnosnav:hover{
+    transform: scale(1.05);
+    transition: all 0.8s ease;
+}
+nav .rankingnav{
+    color: darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 90%;
+    text-align: left;
+    font-weight: bold;
+    transition: all 0.8s ease;
+}
+.rankingnav:hover{
+    transform: scale(1.05);
+    transition: all 0.8s ease;
+}
+nav .torneosnav{
+    color: darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 90%;
+    text-align: left;
+    font-weight: bold;
+    transition: all 0.8s ease;
+}
+.torneosnav:hover{
+    transform: scale(1.05);
+    transition: all 0.8s ease;
+}
+nav .inscripcionesnav{
+    color: darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80%;
+    text-align: left;
+    font-weight: bold;
+    transition: all 0.8s ease;
+}
+.inscripcionesnav:hover{
+    transform: scale(1.05);
+    transition: all 0.8s ease;
+}
+nav .tiendanav{
+    color: darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 90%;
+    text-align: left;
+    font-weight: bold;
+    transition: all 0.8s ease;
+}
+.tiendanav:hover{
+    transform: scale(1.05);
+    transition: all 0.8s ease;
+}
+nav .contactanosnav{
+    color: darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 90%;
+    text-align: left;
+    font-weight: bold;
+    transition: all 0.8s ease;
+}
+.imgturnos{
+    width: 65px;
+    transition: all 0.8s ease;
+}
+.imgturnos:hover{
+    transition: all 0.8s ease;
+    transform: skew(-8deg);
+}
+.imgranking{
+    width: 60px;
+    transition: all 0.8s ease;
+}
+.imgranking:hover{
+    transition: all 0.8s ease;
+    transform: skew(8deg);
+}
+.imgtorneos{
+    width: 60px;
+    transition: all 0.8s ease;
+}
+.imgtorneos:hover{
+    transition: all 0.8s ease;
+    transform: skew(10deg);
+}
+.imginscripciones{
+    width: 60px;
+    transition: all 0.8s ease;
+}
+.imginscripciones:hover{
+    transition: all 0.8s ease;
+    transform: skew(-10deg);
+}
+.imgtienda{
+    width: 75px;
+    transition: all 0.8s ease;
+}
+.imgtienda:hover{
+    transition: all 0.8s ease;
+    transform: rotateY(180deg);
+}
+.imgcontactanos{
+    width: 65px;
+    transform: rotatey(180deg);
+}
+.sponsor{
+    display: flex;
+    left: 85%;
+    top: 108%;
+}
+footer{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: aqua;
+    padding: 10px 0px;
+    margin: 50px 175px 0px 175px;
+}
+.imgig{
+    width: 45px;
+}
+.imgfb{
+    width: 40px;
+}
+.imgwsp{
+    width: 40px;
+}
+.imgcorreo{
+    width: 41px;
+}
+.imgubicacion{
+    width: 45px;
+}
+.ranking{
+    display: flex;
+    right: 30%;
+    top: 90%;
+    text-align: center;
+    width: 385px;
+    height: 495px;
+    overflow: auto;
+    display: inline-block;
+    color: darkblue;
+    font-weight: bold;
+}
+.tabla{
+    border: 2px solid;
+    color: black;
+    font-weight: bold;
+}
+.turnos{
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+    border: 2px;
+}
+.letras{
+    color: darkblue;
+    font-weight: bold;
+}
+.imgfechatorneo1{
+    display: flex;
+    right: 20%;
+    top: 90%;
+    width: 350px;
+    height: 490px;
+}
+.imgfechatorneo2{
+    display: flex;
+    right: 50%;
+    top: 90%;
+    width: 350px;
+    height: 490px;
+}
+.inscripciones{
+    display: flex;
+    right: 30%;
+    top: 110%;
+    text-align: center;
+    color: darkblue;
+    font-weight: bold;
+}
+.tienda{
+    display: flex;
+    right: 30%;
+    top: 90%;
+    text-align: center;
+    width: 385px;
+    height: 510px;
+    display: inline-block;
+    color: darkblue;
+    font-weight: bold;
+}
+
+.gridbody{
+    display: grid;
+    grid-template-areas: 
+        "header header header header"
+        "nav nav nav nav"
+        "footer footer footer footer"
+    ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 400px 670px 100px;
+    grid-row-gap: 10px;
+}
+.gridheader{
+    grid-area: header;
+}
+.gridnav{
+    grid-area: nav;
+}
+.gridfooter{
+    grid-area: footer;
+}
+@media (max-width: 760px){
+    *{
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+    }
+    .backgroundimg{
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .logo{
+        height: 15px;
+        width: 30px;
+    }
+    .imglogo{
+        width: 20px;
+        height: 20px;
+        transition: all 1s ease;
+    }
+    .imglogo:hover{
+        transition: all 1s ease;
+        transform: scale(1.15);
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: 15%;
+        width: 250px;
+        height: 30px;
+        background-color: black;
+        margin-top: 10px;
+    }
+    header:hover{
+        transform: scale(1.10);
+        transition: all 0.8s ease;
+    }
+    .titulo{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: aqua;
+        font-style: oblique;
+        font-size: 130%;
+        font-weight: bold;
+    }
+    .subtitulo{
+        position: relative;
+        left: 35%;
+        background-color: black;
+        width: 120px;
+        text-align: center;
+        font-style: italic;
+        font-size: 70%;
+        color: red;
+        padding: 2px;
+    }
+    .canchasimg{
+        display: flex;
+        position: relative;
+        left: 15%;
+        width: 250px;
+        height: 50px;
+    }
+    nav{
+        display: flex;
+        justify-content: baseline;
+        text-align: center;
+        
+    }
+    nav a{
+        color: darkblue;
+    }
+    nav .tablanav{
+        border: 2px;
+        color: black;
+    }
+    nav .turnosnav{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: darkblue;
+        font-size: 40%;
+        text-align: left;
+        font-weight: bold;
+        transition: all 0.8s ease;
+    }
+    .turnosnav:hover{
+        transform: scale(1.05);
+        transition: all 0.8s ease;
+    }
+    nav .rankingnav{
+        color: darkblue;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 40%;
+        text-align: left;
+        font-weight: bold;
+        transition: all 0.8s ease;
+    }
+    .rankingnav:hover{
+        transform: scale(1.05);
+        transition: all 0.8s ease;
+    }
+    nav .torneosnav{
+        color: darkblue;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 40%;
+        text-align: left;
+        font-weight: bold;
+        transition: all 0.8s ease;
+    }
+    .torneosnav:hover{
+        transform: scale(1.05);
+        transition: all 0.8s ease;
+    }
+    nav .inscripcionesnav{
+        color: darkblue;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 38%;
+        text-align: left;
+        font-weight: bold;
+        transition: all 0.8s ease;
+    }
+    .inscripcionesnav:hover{
+        transform: scale(1.05);
+        transition: all 0.8s ease;
+    }
+    nav .tiendanav{
+        color: darkblue;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 40%;
+        text-align: left;
+        font-weight: bold;
+        transition: all 0.8s ease;
+    }
+    .tiendanav:hover{
+        transform: scale(1.05);
+        transition: all 0.8s ease;
+    }
+    nav .contactanosnav{
+        color: darkblue;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 40%;
+        text-align: left;
+        font-weight: bold;
+        transition: all 0.8s ease;
+    }
+    .imgturnos{
+        width: 25px;
+        transition: all 0.8s ease;
+    }
+    .imgturnos:hover{
+        transition: all 0.8s ease;
+        transform: skew(-8deg);
+    }
+    .imgranking{
+        width: 24px;
+        transition: all 0.8s ease;
+    }
+    .imgranking:hover{
+        transition: all 0.8s ease;
+        transform: skew(8deg);
+    }
+    .imgtorneos{
+        width: 25px;
+    }
+    .imginscripciones{
+        width: 25px;
+        transition: all 0.8s ease;
+    }
+    .imginscripciones:hover{
+        transition: all 0.8s ease;
+        transform: skew(-10deg);
+    }
+    .imgtienda{
+        width: 30px;
+    }
+    .imgcontactanos{
+        width: 27px;
+        transform: rotatey(180deg);
+    }
+    .sponsor{
+        display: flex;
+        width: 10px;
+        left: 90%;
+    }
+    footer{
+        display: flex;
+        align-content: center;
+        background-color: aqua;
+        width: 200px;
+        height: 20px;
+        text-align: center;
+    }
+    .imgig{
+        width: 20px;
+    }
+    .imgfb{
+        width: 17px;
+    }
+    .imgwsp{
+        width: 17px;
+    }
+    .imgcorreo{
+        width: 17px;
+    }
+    .imgubicacion{
+        width: 20px;
+    }
+    .ranking{
+        display: flex;
+        text-align: center;
+        width: 180px;
+        height: 400px;
+        overflow: auto;
+        color: darkblue;
+        font-weight: bold;
+        font-size: 40%;
+    }
+    .tabla{
+        border: 2px solid;
+        color: black;
+        font-weight: bold;
+        font-size: 30%
+    }
+    .turnos{
+        text-align: center;
+        color: darkblue;
+        font-weight: bold;
+        border: 2px;
+        font-size: 70%;
+    }
+    .letras{
+        color: darkblue;
+        font-weight: bold;
+        font-size: 50%;
+    }
+    .imgfechatorneo1{
+        display: flex;
+        right: 20%;
+        top: 90%;
+        width: 90px;
+        height: 170px;
+    }
+    .imgfechatorneo2{
+        display: flex;
+        right: 50%;
+        top: 90%;
+        width: 90px;
+        height: 170px;
+    }
+    .inscripciones{
+        display: flex;
+        right: 30%;
+        top: 110%;
+        text-align: center;
+        color: darkblue;
+        font-weight: bold;
+        font-size: 50%;
+    }
+    .tienda{
+        display: flex;
+        right: 30%;
+        top: 90%;
+        text-align: center;
+        width: 200px;
+        height: 300px;
+        color: darkblue;
+        font-weight: bold;
+        font-size: 70%;
+    }
+    .robber8multi{
+        width: 50px;
+    }
+    .varlionavant{
+        width: 70px;
+    }
+    .gridbody{
+        display: grid;
+        grid-template-areas: 
+            "header header header header"
+            "nav nav nav nav"
+            "footer footer footer footer"
+        ;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 150px 470px 40px;
+        grid-row-gap: 2px;
+    }
+    .gridheader{
+        grid-area: header;
+    }
+    .gridnav{
+        grid-area: nav;
+    }
+    .gridfooter{
+        grid-area: footer;
+    }
+}
