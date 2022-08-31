@@ -202,18 +202,43 @@ footer{
 }
 .imgig{
     width: 45px;
+    transition: all 0.8s ease;
+}
+.imgig:hover{
+    transform: rotate(360deg);
+    transition: all 0.8s ease;
 }
 .imgfb{
     width: 40px;
+    transition: all 0.8s ease;
+}
+.imgfb:hover{
+    transform: scale(70%);
+    transition: all 0.8s ease;
 }
 .imgwsp{
     width: 40px;
+    transition: all 0.8s ease;
+}
+.imgwsp:hover{
+    transform: skew(17deg);
+    transition: all 0.8s ease;
 }
 .imgcorreo{
     width: 41px;
+    transition: all 0.8s ease;
+}
+.imgcorreo:hover{
+    transform: rotate(360deg);
+    transition: all 0.8s ease;
 }
 .imgubicacion{
     width: 45px;
+    transition: all 0.8s ease;
+}
+.imgubicacion:hover{
+    transform: scale(118%);
+    transition: all 0.8s ease;
 }
 .ranking{
     display: flex;
