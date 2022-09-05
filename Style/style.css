@@ -261,7 +261,7 @@ footer{
     text-align: center;
     color: darkblue;
     font-weight: bold;
-    border: 2px;
+    border: 4px;
 }
 .letras{
     color: darkblue;
@@ -532,8 +532,8 @@ footer{
     .ranking{
         display: flex;
         text-align: center;
-        width: 180px;
-        height: 400px;
+        width: 115px;
+        height: 230px;
         overflow: auto;
         color: darkblue;
         font-weight: bold;

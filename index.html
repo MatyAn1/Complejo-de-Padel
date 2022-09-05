@@ -1,115 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Link al archivo CSS-->
-    <link rel="stylesheet" href="./Css/style.css">
-    <title>Complejo de Padel</title>
-</head>
-<body background="./Assets/Imagenes/Background.png" class="backgroundimg">
-    <div class="gridbody">
-        <!--Inicia Header-->
-        <div class="gridheader">
-            <div>
-                <header>
-                    <img src="./Assets/Imagenes/LogoPrincipal.png" class="imglogo" alt="">
-                    <h1 class="titulo">Complejo de Padel</h1>
-                </header>
-                <div>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--Link BootsTrap-->
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <!--Link al archivo CSS-->
+        <link rel="stylesheet" href="./Style/style.css">
+        <title>Complejo de Padel</title>
+    </head>
+    <body background="./Assets/Imagenes/Background.png" class="backgroundimg">
+        <div class="container">
+            <!--Inicia Header-->
+            <div class="row">
+                <div class="col">
                     <div>
-                        <h4 class="subtitulo">Detalle del Complejo</h4>
+                        <header>
+                            <img src="./Assets/Imagenes/LogoPrincipal.png" class="imglogo" alt="">
+                            <h1 class="titulo">Complejo de Padel</h1>
+                        </header>
+                        <div>
+                            <div>
+                                <h5 class="subtitulo">Detalle del Complejo</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <img src="./Assets/Imagenes/Cancha de Blindex.png" class="canchasimg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
-            <div>
-                <div>
-                    <img src="./Assets/Imagenes/Cancha de Blindex.png" class="canchasimg" alt="">
+            <!--Termina Header-->
+            <!--Inicia Nav-->
+            <div class="row">
+                <nav>
+                    <div class="col-10 ">
+                        <table>
+                            <tbody>
+                                <tr >
+                                    <td class="turnosnav">
+                                        <a href="./Paginas/turnos.html">TURNOS</a>
+                                    </td>
+                                    <td class="rankingnav">
+                                        <a href="./Paginas/ranking.html">RANKING</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="./Paginas/turnos.html"><img src="./Assets/Imagenes/Turnos.png" class="imgturnos" alt=""></a>
+                                    </td>
+                                    <td>
+                                        <a href="./Paginas/ranking.html"><img src="./Assets/Imagenes/Ranking.png" class="imgranking" alt=""></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="torneosnav">
+                                        <a href="./Paginas/torneos.html">TORNEOS</a>
+                                    </td>
+                                    <td class="inscripcionesnav">
+                                        <a href="./Paginas/inscripciones torneos.html">INSCRIPCIONES</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="./Paginas/torneos.html"><img src="./Assets/Imagenes/Torneos.png" class="imgtorneos" alt=""></a>
+                                    </td>
+                                    <td>
+                                        <a href="./Paginas/inscripciones torneos.html"><img src="./Assets/Imagenes/Inscripciones Torneos.png" class="imginscripciones" alt=""></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="tiendanav">
+                                        <a href="./Paginas/tienda.html">TIENDA</a>
+                                    </td>
+                                    <td class="contactanosnav">
+                                        <a href="#footer">CONTACTANOS</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="./Paginas/tienda.html"><img src="./Assets/Imagenes/Tienda.png" class="imgtienda" alt=""></a>
+                                    </td>
+                                    <td>
+                                        <a href="#footer"><img src="./Assets/Imagenes/Contactanos.png" class="imgcontactanos" alt=""></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-2">
+                        <table>
+                            <tr>
+                                <td>
+                                    <a href="./Paginas/tienda.html"><img src="./Assets/Imagenes/Robber8.png" class="imgtienda" alt=""></a>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </nav>
+            </div>
+            <!--Termina Nav-->
+            <!--Inicia Footer-->
+            <div class="row">
+                <div class="col">
+                    <footer id="footer">
+                        <div>
+                            <img src="./Assets/Imagenes/Whatsapp.png" class="imgwsp" alt=""> 
+                            <img src="./Assets/Imagenes/Correo.png" class="imgcorreo" alt=""> 
+                            <img src="./Assets/Imagenes/Ubicacion.png" class="imgubicacion" alt=""> 
+                        </div>
+                        <div>
+                            <img src="./Assets/Imagenes/Facebook.png" class="imgfb" alt="">
+                            <img src="./Assets/Imagenes/Instagram.png" class="imgig" alt="">
+                        </div>
+                    </footer>
                 </div>
             </div>
+            <!--Termina Footer-->
         </div>
-        <!--Termina Header-->
-        <!--Inicia Nav-->
-        <div class="gridnav">
-            <nav>
-                <table>
-                    <tbody>
-                        <tr >
-                            <td class="turnosnav">
-                                <a href="./Paginas/turnos.html">TURNOS</a>
-                            </td>
-                            <td class="rankingnav">
-                                <a href="./Paginas/ranking.html">RANKING</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="./Paginas/turnos.html"><img src="./Assets/Imagenes/Turnos.png" class="imgturnos" alt=""></a>
-                            </td>
-                            <td>
-                                <a href="./Paginas/ranking.html"><img src="./Assets/Imagenes/Ranking.png" class="imgranking" alt=""></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="torneosnav">
-                                <a href="./Paginas/torneos.html">TORNEOS</a>
-                            </td>
-                            <td class="inscripcionesnav">
-                                <a href="./Paginas/inscripciones torneos.html">INSCRIPCIONES</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="./Paginas/torneos.html"><img src="./Assets/Imagenes/Torneos.png" class="imgtorneos" alt=""></a>
-                            </td>
-                            <td>
-                                <a href="./Paginas/inscripciones torneos.html"><img src="./Assets/Imagenes/Inscripciones Torneos.png" class="imginscripciones" alt=""></a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td class="tiendanav">
-                                <a href="./Paginas/tienda.html">TIENDA</a>
-                            </td>
-                            <td class="contactanosnav">
-                                <a href="#footer">CONTACTANOS</a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <a href="./Paginas/tienda.html"><img src="./Assets/Imagenes/Tienda.png" class="imgtienda" alt=""></a>
-                            </td>
-                            <td>
-                                <a href="#footer"><img src="./Assets/Imagenes/Contactanos.png" class="imgcontactanos" alt=""></a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                <table>
-                    <tr>
-                        <td>
-                            <a href="./Paginas/tienda.html"><img src="./Assets/Imagenes/Robber8.png" class="imgtienda" alt=""></a>
-                        </td>
-                    </tr>
-                </table>
-            </nav>
-        </div>
-        <!--Termina Nav-->
-        <!--Inicia Footer-->
-        <div class="gridfooter">
-            <footer id="footer">
-                <div>
-                    <img src="./Assets/Imagenes/Whatsapp.png" class="imgwsp" alt=""> 
-                    <img src="./Assets/Imagenes/Correo.png" class="imgcorreo" alt=""> 
-                    <img src="./Assets/Imagenes/Ubicacion.png" class="imgubicacion" alt=""> 
-                </div>
-                <div>
-                    <img src="./Assets/Imagenes/Facebook.png" class="imgfb" alt="">
-                    <img src="./Assets/Imagenes/Instagram.png" class="imgig" alt="">
-                </div>
-            </footer>
-        </div>
-        <!--Termina Footer-->
-    </div>
-</body>
+        <script src="./js/bootstrap.min.js"></script>
+    </body>
 </html>
