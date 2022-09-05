@@ -549,13 +549,11 @@ footer{
         font-size: 50%
     }
     .turnos{
-        display: flex;
         text-align: center;
         color: darkblue;
         font-weight: bold;
-        border: 0.2px;
-        font-size: 80%;
-        width: 300px;
+        border: 1px;
+        width: 150px;
         height: 100px;
     }
     .letras{
