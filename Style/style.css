@@ -261,7 +261,9 @@ footer{
     text-align: center;
     color: darkblue;
     font-weight: bold;
-    border: 4px;
+    border: 2px;
+    width: 500px;
+    height: 300px;
 }
 .letras{
     color: darkblue;
@@ -510,9 +512,10 @@ footer{
         display: flex;
         align-content: center;
         background-color: aqua;
-        width: 200px;
-        height: 20px;
+        width: 150px;
+        height: 35px;
         text-align: center;
+        padding: 0px;
     }
     .imgig{
         width: 20px;
@@ -532,7 +535,7 @@ footer{
     .ranking{
         display: flex;
         text-align: center;
-        width: 115px;
+        width: 125px;
         height: 230px;
         overflow: auto;
         color: darkblue;
@@ -540,17 +543,20 @@ footer{
         font-size: 40%;
     }
     .tabla{
-        border: 2px solid;
+        border: 1px solid;
         color: black;
         font-weight: bold;
-        font-size: 30%
+        font-size: 50%
     }
     .turnos{
+        display: flex;
         text-align: center;
         color: darkblue;
         font-weight: bold;
-        border: 2px;
-        font-size: 70%;
+        border: 0.2px;
+        font-size: 80%;
+        width: 300px;
+        height: 100px;
     }
     .letras{
         color: darkblue;
