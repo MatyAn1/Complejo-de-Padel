@@ -1,0 +1,27 @@
+body{
+    .backgroundimg{
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .gridbody{
+        display: grid;
+        grid-template-areas: 
+            "header header header header"
+            "nav nav nav nav"
+            "footer footer footer footer"
+        ;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 400px 670px 100px;
+        grid-row-gap: 10px;
+    }
+    .gridheader{
+        grid-area: header;
+    }
+    .gridnav{
+        grid-area: nav;
+    }
+    .gridfooter{
+        grid-area: footer;
+    }
+}

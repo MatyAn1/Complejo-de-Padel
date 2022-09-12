@@ -1,0 +1,50 @@
+footer{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: aqua;
+    padding: 10px 0px;
+    margin: 50px 175px 0px 175px;
+
+    .imgig{
+        width: 45px;
+        transition: all 0.8s ease;
+        &:hover{
+        transform: rotate(360deg);
+        transition: all 0.8s ease;
+        }
+    }
+    .imgfb{
+        width: 40px;
+        transition: all 0.8s ease;
+        &:hover{
+        transform: scale(70%);
+        transition: all 0.8s ease;
+        }
+    }
+    .imgwsp{
+        width: 40px;
+        transition: all 0.8s ease;
+        &:hover{
+        transform: skew(17deg);
+        transition: all 0.8s ease;
+        }
+    }
+    .imgcorreo{
+        width: 41px;
+        transition: all 0.8s ease;
+        &:hover{
+        transform: rotate(360deg);
+        transition: all 0.8s ease;
+        }
+    }
+    .imgubicacion{
+        width: 45px;
+        transition: all 0.8s ease;
+        &:hover{
+        transform: scale(118%);
+        transition: all 0.8s ease;
+        }
+    }
+
+}
