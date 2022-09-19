@@ -27,7 +27,7 @@
         left: 15%;
         width: 250px;
         height: 30px;
-        background-color: black;
+        background-color: map-get($colors, colorback);
         margin-top: 10px;
     }
     header:hover{
@@ -36,7 +36,7 @@
     }
     .titulo{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color: aqua;
+        color: map-get($colors, primario);
         font-style: oblique;
         font-size: 130%;
         font-weight: bold;
@@ -44,12 +44,12 @@
     .subtitulo{
         position: relative;
         left: 35%;
-        background-color: black;
+        background-color: map-get($colors, colorback);
         width: 120px;
         text-align: center;
         font-style: italic;
         font-size: 70%;
-        color: red;
+        color: map-get($colors, secundario);
         padding: 2px;
     }
     .canchasimg{
@@ -66,15 +66,15 @@
         
     }
     nav a{
-        color: darkblue;
+        color: map-get($colors, terciario);
     }
     nav .tablanav{
         border: 2px;
-        color: black;
+        color: map-get($colors, colorback);
     }
     nav .turnosnav{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color: darkblue;
+        color: map-get($colors, terciario);
         font-size: 40%;
         text-align: left;
         font-weight: bold;
@@ -85,7 +85,7 @@
         transition: all 0.8s ease;
     }
     nav .rankingnav{
-        color: darkblue;
+        color: map-get($colors, terciario);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 40%;
         text-align: left;
@@ -97,7 +97,7 @@
         transition: all 0.8s ease;
     }
     nav .torneosnav{
-        color: darkblue;
+        color: map-get($colors, terciario);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 40%;
         text-align: left;
@@ -109,7 +109,7 @@
         transition: all 0.8s ease;
     }
     nav .inscripcionesnav{
-        color: darkblue;
+        color: map-get($colors, terciario);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 38%;
         text-align: left;
@@ -121,7 +121,7 @@
         transition: all 0.8s ease;
     }
     nav .tiendanav{
-        color: darkblue;
+        color: map-get($colors, terciario);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 40%;
         text-align: left;
@@ -133,7 +133,7 @@
         transition: all 0.8s ease;
     }
     nav .contactanosnav{
-        color: darkblue;
+        color: map-get($colors, terciario);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 40%;
         text-align: left;
@@ -182,7 +182,7 @@
     footer{
         display: flex;
         align-content: center;
-        background-color: aqua;
+        color: map-get($colors, primario);
         width: 150px;
         height: 35px;
         text-align: center;
@@ -209,26 +209,26 @@
         width: 125px;
         height: 230px;
         overflow: auto;
-        color: darkblue;
+        color: map-get($colors, terciario);
         font-weight: bold;
         font-size: 40%;
     }
     .tabla{
         border: 1px solid;
-        color: black;
+        color: map-get($colors, colorback);
         font-weight: bold;
         font-size: 50%
     }
     .turnos{
         text-align: center;
-        color: darkblue;
+        color: map-get($colors, terciario);
         font-weight: bold;
         border: 1px;
         width: 150px;
         height: 100px;
     }
     .letras{
-        color: darkblue;
+        color: map-get($colors, terciario);
         font-weight: bold;
         font-size: 50%;
     }
@@ -251,7 +251,7 @@
         right: 30%;
         top: 110%;
         text-align: center;
-        color: darkblue;
+        color: map-get($colors, terciario);
         font-weight: bold;
         font-size: 50%;
     }
@@ -262,7 +262,7 @@
         text-align: center;
         width: 200px;
         height: 300px;
-        color: darkblue;
+        color: map-get($colors, terciario);
         font-weight: bold;
         font-size: 70%;
     }

@@ -7,7 +7,7 @@ header{
     left: 30%;
     width: 500px;
     height: 90px;
-    background-color: black;
+    background-color: map-get($colors,colorback);
     padding: 10px 10px 15px 0px;
     margin-top: 10px;
     transition: all 0.8s ease;
@@ -31,7 +31,7 @@ header{
     }
     .titulo{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color: aqua;
+        color: map-get($colors, primario);
         font-style: oblique;
         font-size: 250%;
         font-weight: bold;
@@ -40,11 +40,11 @@ header{
 .subtitulo{
         position: relative;
         left: 40%;
-        background-color: black;
+        background-color: map-get($colors, colorback);
         width: 250px;
         text-align: center;
         font-style: italic;
-        color: red;
+        color: map-get($colors, secundario);
 }
 .canchasimg{
         display: flex;
