@@ -51,7 +51,7 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: aqua;
     font-style: oblique;
-    font-size: 250%;
+    font-size: 120%;
     font-weight: bold; }
 
 .subtitulo {
@@ -229,6 +229,14 @@ nav {
     display: inline-block;
     color: darkblue;
     font-weight: bold; }
+  nav .btn, nav .btn-uno {
+    background-color: black;
+    border: 2px; }
+  nav .btn-uno {
+    color: aqua; }
+  nav .btn-dos {
+    background-color: black;
+    color: red; }
 
 footer {
   display: flex;

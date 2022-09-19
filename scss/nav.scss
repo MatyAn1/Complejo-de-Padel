@@ -190,6 +190,21 @@ nav{
         color: map-get($colors, terciario);
         font-weight: bold;
     }
+    @mixin btn-style($background, $typography){
+        background-color: $background;
+        color: $typography;
+    }
+    .btn{
+        background-color: map-get($colors, colorback);
+        border: 2px;
+    }
     
+    .btn-uno{
+        @extend .btn;
+        color: map-get($colors, primario);
+    }
+    .btn-dos{
+        @include btn-style(black, red)
+    }
 
 }
