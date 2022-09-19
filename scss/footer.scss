@@ -2,7 +2,7 @@ footer{
     display: flex;
     align-content: center;
     justify-content: space-evenly;
-    background-color: aqua;
+    background-color: map-get($colors, primario);
     padding: 10px 0px;
     margin: 50px 175px 0px 175px;
 
