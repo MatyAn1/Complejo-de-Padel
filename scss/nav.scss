@@ -1,9 +1,8 @@
 nav{
     display: flex;
-    justify-content: space-between;
     margin: 120px 20px 300px 20px;
     text-align: center;
-
+    justify-content: space-between;
     a{
         color: map-get($colors, terciario);
     }
@@ -12,9 +11,9 @@ nav{
         color: map-get($colors, colorback);
     }
     .turnosnav{
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: Open Sans;
         color: map-get($colors, terciario);
-        font-size: 90%;
+        font-size: 92%;
         text-align: left;
         font-weight: bold;
         transition: all 0.8s ease;
@@ -25,8 +24,8 @@ nav{
     }
     .rankingnav{
         color: map-get($colors, terciario);
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 90%;
+        font-family: Open Sans;
+        font-size: 92%;
         text-align: left;
         font-weight: bold;
         transition: all 0.8s ease;
@@ -37,8 +36,8 @@ nav{
     }
     .torneosnav{
         color: map-get($colors, terciario);
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 90%;
+        font-family: Open Sans;
+        font-size: 92%;
         text-align: left;
         font-weight: bold;
         transition: all 0.8s ease;
@@ -49,8 +48,8 @@ nav{
     }
     .inscripcionesnav{
         color: map-get($colors, terciario);
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 80%;
+        font-family: Open Sans;
+        font-size: 82%;
         text-align: left;
         font-weight: bold;
         transition: all 0.8s ease;
@@ -61,8 +60,8 @@ nav{
     }
     .tiendanav{
         color: map-get($colors, terciario);
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 90%;
+        font-family: Open Sans;
+        font-size: 92%;
         text-align: left;
         font-weight: bold;
         transition: all 0.8s ease;
@@ -73,8 +72,8 @@ nav{
     }
     .contactanosnav{
         color: map-get($colors, terciario);
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: 90%;
+        font-family: Open Sans;
+        font-size: 92%;
         text-align: left;
         font-weight: bold;
         transition: all 0.8s ease;
@@ -181,14 +180,14 @@ nav{
     }
     .tienda{
         display: flex;
-        right: 30%;
-        top: 90%;
-        text-align: center;
-        width: 385px;
-        height: 510px;
-        display: inline-block;
         color: map-get($colors, terciario);
         font-weight: bold;
+    }
+    .robber8multi{
+        width: 100px;
+    }
+    .varlionavant{
+        width: 120px;
     }
     @mixin btn-style($background, $typography){
         background-color: $background;

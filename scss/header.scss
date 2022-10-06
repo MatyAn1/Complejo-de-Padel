@@ -7,7 +7,6 @@ header{
     left: 30%;
     width: 500px;
     height: 90px;
-    background-color: map-get($colors,colorback);
     padding: 10px 10px 15px 0px;
     margin-top: 10px;
     transition: all 0.8s ease;
@@ -22,15 +21,15 @@ header{
         width: 100px;
     }
     .imglogo{
-        width: 65px;
-        height: 65px;
+        width: 40px;
+        height: 40px;
         &:hover{ 
             transition: all 1s ease;
             transform: scale(1.15);
         }
     }
     .titulo{
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-family: Open Sans;
         color: map-get($colors, primario);
         font-style: oblique;
         font-size: 120%;

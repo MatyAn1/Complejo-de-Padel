@@ -31,7 +31,6 @@ header {
   left: 30%;
   width: 500px;
   height: 90px;
-  background-color: black;
   padding: 10px 10px 15px 0px;
   margin-top: 10px;
   transition: all 0.8s ease; }
@@ -42,14 +41,14 @@ header {
     height: 50px;
     width: 100px; }
   header .imglogo {
-    width: 65px;
-    height: 65px; }
+    width: 40px;
+    height: 40px; }
     header .imglogo:hover {
       transition: all 1s ease;
       transform: scale(1.15); }
   header .titulo {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: aqua;
+    font-family: Open Sans;
+    color: #285ac7;
     font-style: oblique;
     font-size: 120%;
     font-weight: bold; }
@@ -73,18 +72,18 @@ header {
 
 nav {
   display: flex;
-  justify-content: space-between;
   margin: 120px 20px 300px 20px;
-  text-align: center; }
+  text-align: center;
+  justify-content: space-between; }
   nav a {
     color: darkblue; }
   nav .tablanav {
     border: 2px;
     color: black; }
   nav .turnosnav {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Open Sans;
     color: darkblue;
-    font-size: 90%;
+    font-size: 92%;
     text-align: left;
     font-weight: bold;
     transition: all 0.8s ease; }
@@ -93,8 +92,8 @@ nav {
       transition: all 0.8s ease; }
   nav .rankingnav {
     color: darkblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 90%;
+    font-family: Open Sans;
+    font-size: 92%;
     text-align: left;
     font-weight: bold;
     transition: all 0.8s ease; }
@@ -103,8 +102,8 @@ nav {
       transition: all 0.8s ease; }
   nav .torneosnav {
     color: darkblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 90%;
+    font-family: Open Sans;
+    font-size: 92%;
     text-align: left;
     font-weight: bold;
     transition: all 0.8s ease; }
@@ -113,8 +112,8 @@ nav {
       transition: all 0.8s ease; }
   nav .inscripcionesnav {
     color: darkblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 80%;
+    font-family: Open Sans;
+    font-size: 82%;
     text-align: left;
     font-weight: bold;
     transition: all 0.8s ease; }
@@ -123,8 +122,8 @@ nav {
       transition: all 0.8s ease; }
   nav .tiendanav {
     color: darkblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 90%;
+    font-family: Open Sans;
+    font-size: 92%;
     text-align: left;
     font-weight: bold;
     transition: all 0.8s ease; }
@@ -133,8 +132,8 @@ nav {
       transition: all 0.8s ease; }
   nav .contactanosnav {
     color: darkblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 90%;
+    font-family: Open Sans;
+    font-size: 92%;
     text-align: left;
     font-weight: bold;
     transition: all 0.8s ease; }
@@ -221,19 +220,17 @@ nav {
     font-weight: bold; }
   nav .tienda {
     display: flex;
-    right: 30%;
-    top: 90%;
-    text-align: center;
-    width: 385px;
-    height: 510px;
-    display: inline-block;
     color: darkblue;
     font-weight: bold; }
+  nav .robber8multi {
+    width: 100px; }
+  nav .varlionavant {
+    width: 120px; }
   nav .btn, nav .btn-uno {
     background-color: black;
     border: 2px; }
   nav .btn-uno {
-    color: aqua; }
+    color: #285ac7; }
   nav .btn-dos {
     background-color: black;
     color: red; }
@@ -242,7 +239,7 @@ footer {
   display: flex;
   align-content: center;
   justify-content: space-evenly;
-  background-color: aqua;
+  background-color: #285ac7;
   padding: 10px 0px;
   margin: 50px 175px 0px 175px; }
   footer .imgig {
@@ -307,7 +304,7 @@ footer {
     transition: all 0.8s ease; }
   .titulo {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: aqua;
+    color: #285ac7;
     font-style: oblique;
     font-size: 130%;
     font-weight: bold; }
@@ -425,7 +422,7 @@ footer {
   footer {
     display: flex;
     align-content: center;
-    color: aqua;
+    color: #285ac7;
     width: 150px;
     height: 35px;
     text-align: center;
